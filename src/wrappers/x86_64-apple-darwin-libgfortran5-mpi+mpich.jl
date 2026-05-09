@@ -20,25 +20,25 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS32_jll, SCALAPACK32_jll, libblastrampoline_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
-        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.24.2.dylib",
+        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.24.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int32,
-        "lib/petsc/double_real_Int32/lib/libpetsc_double_real_Int32.3.24.2.dylib",
+        "lib/petsc/double_real_Int32/lib/libpetsc_double_real_Int32.3.24.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int64,
-        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.24.2.dylib",
+        "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.24.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int64_deb,
-        "lib/petsc/double_real_Int64_deb/lib/libpetsc_double_real_Int64_deb.3.24.2.dylib",
+        "lib/petsc/double_real_Int64_deb/lib/libpetsc_double_real_Int64_deb.3.24.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

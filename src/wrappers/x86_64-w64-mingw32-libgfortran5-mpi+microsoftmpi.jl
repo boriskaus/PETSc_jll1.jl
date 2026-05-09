@@ -6,10 +6,10 @@ using OpenBLAS32_jll
 using SCALAPACK32_jll
 using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("PETSc")
-JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64-3.24.2.dll")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32-3.24.2.dll")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64-3.24.2.dll")
-JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64_deb, "libpetsc_double_real_Int64_deb-3.24.2.dll")
+JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64-3.24.6.dll")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32-3.24.6.dll")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64-3.24.6.dll")
+JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64_deb, "libpetsc_double_real_Int64_deb-3.24.6.dll")
 JLLWrappers.@declare_executable_product(ex19)
 JLLWrappers.@declare_executable_product(ex19_int32)
 JLLWrappers.@declare_executable_product(ex19_int64_deb)
@@ -19,25 +19,25 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS32_jll, SCALAPACK32_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
-        "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.24.2.dll",
+        "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.24.6.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int32,
-        "bin\\petsc\\double_real_Int32\\lib\\libpetsc_double_real_Int32-3.24.2.dll",
+        "bin\\petsc\\double_real_Int32\\lib\\libpetsc_double_real_Int32-3.24.6.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int64,
-        "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.24.2.dll",
+        "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.24.6.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libpetsc_Float64_Real_Int64_deb,
-        "bin\\petsc\\double_real_Int64_deb\\lib\\libpetsc_double_real_Int64_deb-3.24.2.dll",
+        "bin\\petsc\\double_real_Int64_deb\\lib\\libpetsc_double_real_Int64_deb-3.24.6.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
