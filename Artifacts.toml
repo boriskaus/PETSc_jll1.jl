@@ -1,26 +1,5 @@
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "98e770a0b74a73a98f685deac67b5ddca7d68e3a"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "linux"
-
-    [[PETSc.download]]
-    sha256 = "204c91734c6a8e3b1593208b5fc85db12a8a209a7bdde86658ed8f8956b53133"
-    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.24.2+0/PETSc.v3.24.2.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
-[[PETSc]]
-arch = "x86_64"
-git-tree-sha1 = "0a265f64ce9bdde567959a2ed8bf5fc3cf5f5dd4"
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "macos"
-
-    [[PETSc.download]]
-    sha256 = "be65de52191aa1cd612b8484719100064ebbcf0b7a292827043b6135832f8ab7"
-    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.24.6+0/PETSc.v3.24.6.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
-[[PETSc]]
-arch = "x86_64"
 git-tree-sha1 = "d348328fa764bb9032412d192e8d1bc4c39c11c9"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
@@ -39,3 +18,24 @@ os = "macos"
     [[PETSc.download]]
     sha256 = "1aedd65a73738fb72070063cda7d6f025865288369352585d8c7e9f4c61b7b8d"
     url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.24.6+0/PETSc.v3.24.6.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[PETSc]]
+arch = "x86_64"
+git-tree-sha1 = "9ad3a31a5482f37eadf10bd17fde34480bb2ff4f"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[PETSc.download]]
+    sha256 = "f62d76f76abefa060a34ef97b0681378755217bae0ac396017209e459a27b6ac"
+    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.24.6+0/PETSc.v3.24.6.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[PETSc]]
+arch = "x86_64"
+git-tree-sha1 = "ec12ff9a0789ac459bb7de947a3bf6157f20d31d"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc.download]]
+    sha256 = "acb7a1e2e858bf00615e489a9125c0de552fceca651a8b1ea279069011c693ea"
+    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.24.6+0/PETSc.v3.24.6.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
