@@ -32,11 +32,11 @@ os = "linux"
 [[PETSc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4c1557059c0f16b503b5109167825319b228e2aa"
+git-tree-sha1 = "1604a45cc47788799ac0c4beba845909d9127881"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[PETSc.download]]
-    sha256 = "43a71cc477cc08c24798069e5ecfc31796ac67ee1a44850f3c4728dc4259e280"
+    sha256 = "541474a5f57f3d0ac555870acc0869a05a290f04d1b78e9a916230ed64663314"
     url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
