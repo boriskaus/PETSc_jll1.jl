@@ -1,4 +1,14 @@
 [[PETSc]]
+arch = "x86_64"
+git-tree-sha1 = "97d42512f96759df98fe39f479018fced9904384"
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[PETSc.download]]
+    sha256 = "5b3182396eb699dbc5450defa3fc7c0d6db98f6735fd20fb637eaf4f02976fb0"
+    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
+[[PETSc]]
 arch = "aarch64"
 git-tree-sha1 = "b40915217d16406d09646599f43c34446bf919d7"
 libgfortran_version = "5.0.0"
@@ -31,11 +41,12 @@ os = "linux"
     url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[PETSc]]
 arch = "x86_64"
-git-tree-sha1 = "97d42512f96759df98fe39f479018fced9904384"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b4f7104376bf44a3ce7af1ba0929189dbe56ac2c"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[PETSc.download]]
-    sha256 = "5b3182396eb699dbc5450defa3fc7c0d6db98f6735fd20fb637eaf4f02976fb0"
-    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
+    sha256 = "4e0a2aacba94b4e33176b84c74d727716135a821de487c22760573d12deb33e6"
+    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
