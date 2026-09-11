@@ -3,6 +3,8 @@ export ex19, ex19_int32, ex19_int64_deb, ex4, ex42, libpetsc, libpetsc_Float32_C
 
 using CompilerSupportLibraries_jll
 using OpenBLAS_jll
+using MUMPS_jll
+using OpenBLAS32_jll
 using TetGen_jll
 using Triangle_jll
 using SuiteSparse_jll
@@ -24,7 +26,7 @@ JLLWrappers.@declare_executable_product(ex19_int64_deb)
 JLLWrappers.@declare_executable_product(ex4)
 JLLWrappers.@declare_executable_product(ex42)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS_jll, MUMPS_jll, OpenBLAS32_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
         "bin\\petsc\\double_real_Int64\\lib\\libpetsc_double_real_Int64-3.25.4.dll",
