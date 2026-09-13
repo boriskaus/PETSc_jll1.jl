@@ -1,15 +1,4 @@
 [[PETSc]]
-arch = "x86_64"
-git-tree-sha1 = "54fe6b48485e0b549ef0749685075a63d6ec820d"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "linux"
-
-    [[PETSc.download]]
-    sha256 = "f571bab9ead51953087f29e59ca4e14a8ffee46fc20d25bbbc578e6e675e19a3"
-    url = "https://github.com/boriskaus/PETSc_jll1.jl/releases/download/PETSc-v3.25.4+0/PETSc.v3.25.4.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
-[[PETSc]]
 arch = "aarch64"
 git-tree-sha1 = "9a2e2feb75daac0a6f01e6ac96e4c71d10072ea3"
 libgfortran_version = "5.0.0"
