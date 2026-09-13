@@ -19,7 +19,7 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 
 * `Platform("aarch64", "macos"; libgfortran_version = "5.0.0", mpi = "mpich")` (`aarch64-apple-darwin-libgfortran5-mpi+mpich`)
 * `Platform("x86_64", "macos"; libgfortran_version = "5.0.0", mpi = "mpich")` (`x86_64-apple-darwin-libgfortran5-mpi+mpich`)
-* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", mpi = "mpich", libc = "glibc")` (`x86_64-linux-gnu-libgfortran5-mpi+mpich`)
+* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich`)
 * `Platform("x86_64", "windows"; libgfortran_version = "5.0.0", mpi = "microsoftmpi", cxxstring_abi = "cxx11")` (`x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi`)
 
 ## Dependencies
