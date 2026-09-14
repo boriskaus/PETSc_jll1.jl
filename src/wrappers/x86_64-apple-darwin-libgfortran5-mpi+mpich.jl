@@ -8,6 +8,7 @@ using OpenBLAS32_jll
 using HYPRE64_jll
 using HYPRE_jll
 using SuperLU_DIST_jll
+using HDF5_jll
 using TetGen_jll
 using Triangle_jll
 using SuiteSparse_jll
@@ -29,7 +30,7 @@ JLLWrappers.@declare_executable_product(ex19_int64_deb)
 JLLWrappers.@declare_executable_product(ex4)
 JLLWrappers.@declare_executable_product(ex42)
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MUMPS_jll, OpenBLAS32_jll, HYPRE64_jll, HYPRE_jll, SuperLU_DIST_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MUMPS_jll, OpenBLAS32_jll, HYPRE64_jll, HYPRE_jll, SuperLU_DIST_jll, HDF5_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libpetsc,
         "lib/petsc/double_real_Int64/lib/libpetsc_double_real_Int64.3.25.4.dylib",

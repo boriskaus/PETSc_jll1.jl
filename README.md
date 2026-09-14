@@ -27,6 +27,7 @@ The tarballs for `PETSc_jll.jl` have been built from these sources:
 The following JLL packages are required by `PETSc_jll.jl`:
 
 * `CompilerSupportLibraries_jll`
+* `HDF5_jll`
 * `HYPRE64_jll`
 * `HYPRE_jll`
 * `MPIABI_jll`
